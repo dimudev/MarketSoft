@@ -89,7 +89,7 @@ const Sidebard = () => {
       </div>
       <div className="h-screen w-screen">
         <Routes>
-          <Route path='/' element={ <Home/>} />
+          <Route path='/MarketSoft/' element={ <Home/>} />
           <Route path='/gestion' element={ <Gestion/>} />
           <Route path='/seguimiento' element={ <Seguimiento/>} />
           <Route path='/analisis' element={ <Analisis/>} />
