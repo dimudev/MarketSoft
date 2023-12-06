@@ -1,0 +1,26 @@
+.container_grid {
+  display: grid;
+  grid-template-areas: "account account account account account"
+  "sync sync sync exp exp"
+  "fact fact data data data";
+  grid-template-rows: 1.5fr 2fr 2.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 18px;
+
+}
+
+section {
+  background-color: white;
+}
+
+.container_grid_layout {
+  display: grid;
+  gap: 24px 0px;
+  grid-template-areas: "card1 card1 card2 card2 card3 card3"
+  "bar bar bar bar donut donut"
+  "bar bar bar bar donut donut";
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .8fr 1fr 1fr;
+
+}
