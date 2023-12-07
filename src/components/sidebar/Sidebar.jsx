@@ -23,7 +23,7 @@ const Sidebard = () => {
   console.log(rutaActual)
 
   const Menus = [
-    { title: 'Inicio', icon: <TiHome fontSize={24}/>, url: '/MarketSoft' },
+    { title: 'Inicio', icon: <TiHome fontSize={24}/>, url: '/' },
     { title: 'Gestión', icon: <FaClipboardList fontSize={24}/>, url: 'gestion' },
     { title: 'Seguimiento', icon: <MdOutlineBarChart fontSize={24}/>, url: 'seguimiento' },
     { title: 'Análisis ', icon: <SlGraph fontSize={24}/>, url: 'analisis' },
